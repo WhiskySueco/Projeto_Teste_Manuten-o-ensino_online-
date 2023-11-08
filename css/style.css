@@ -1,0 +1,88 @@
+/* NAVBAR */
+.logo{width: 50px;}
+
+
+/* MAIN */
+
+.btn1{text-decoration: none;}
+.btn1:hover{
+    text-decoration: underline;
+}
+
+.btnDark{
+    margin-left: 15px;
+}
+.card:hover{transform: scale(1.1);}
+
+.linkAnuncio{color: white; }
+
+
+
+/* FOOTER */
+footer{background-color: #0056D2;}
+
+.linkFooter{text-decoration: none;
+color: aliceblue;}
+
+.linkFooter:hover{
+    color: #000000;
+}
+.img2{width: 100px;}
+
+
+
+@media screen and (max-width: 1050px){
+    footer section{display: flex; flex-direction: column;}
+    .fontFooter{order: 3;}
+    .logoFooter{order: 2;}
+    .politica{gap: 8px;}
+    
+}
+
+.mainLogin{
+    height: 90vh;
+}
+
+
+.Login{width: 90%;}
+.Login:hover{background-color: #fff; color: #0056D2;}
+
+.btncadastro{background-color: #07a80ff6; width: 90%; color: #fff;}
+.btncadastro:hover{background-color:#fff; outline:1px solid #07a80ff6; color: #07a80ff6;}
+
+
+
+.final{
+    height: 70vh;
+}
+
+.finaldiv{height: 30vh;}
+
+/* LOCALIZAÇÃO */
+#body {
+    background-image: url('https://c8.alamy.com/comp/2AM8P7Y/dec-27-2019-mountain-view-ca-usa-coursera-headquarters-in-silicon-valley-coursera-is-an-american-online-learning-platform-that-offers-massive-2AM8P7Y.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.container {
+    padding-top: 100px;
+}
+.search-bar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 25px;
+}
+.search-bar input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.search-bar select {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+}

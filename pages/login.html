@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!-- LINK DO FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- LINK DA FAVICON -->
+    <link rel="shortcut icon" href="../assets/image/coursera-logo.png" type="image/x-icon">
+
+    <title>Bolsa Coursera</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a href="pageInicio.html"><img src="../assets/image/coursera-logo.png" alt="Cousera" class="logo me-5 ms-3"></a>
+            <a class="navbar-brand fs-1 me-5" href="pageInicio.html">Coursera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" aria-current="page" href="graduacao.html">Graduação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-6" href="universidades.html">Universidades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ********************* MAIN ************************** -->
+    <main class="container-fluid mainLogin bg-body-tertiary d-flex align-items-center">
+        <div class="row w-100 d-flex justify-content-around">
+            <div class="col-lg-4 col-sm-12">
+                <figure>
+                    <img src="../assets/image/login/logo coursera.svg" alt="">
+                </figure>
+                <div>
+                    <p class="fs-2 lead">Descubra o caminho para o seu sucesso com os cursos de excelência que oferecemos</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <form class="form-control">
+            
+                    <h2 style="font-family: Arial, Helvetica, sans-serif; padding: 20px 0;">LOGIN</h2>
+                    <section class="mb-3">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </section>
+
+                    <section>
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Password">
+                    </section>
+                    <hr>
+                    <section class="d-flex justify-content-center mt-2">
+                        <button type="button" class="btn btn-primary Login">
+                            Login
+                        </button>
+                    </section>
+                    <section class="d-flex justify-content-center my-2">
+                        <a href="cadastro.html" type="button" class="btn btncadastro">
+                            Cadastro
+                        </a>
+                    </section>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ************************ FOOTER ************************ -->
+
+    <footer class="container-fluid ">
+        <section class=" row">
+
+            <div class="col-lg-2 logoFooter">
+                <img src="../assets/image/coursera-logo.png" alt="" class="img2">
+            </div>
+
+            <div class="d-flex col-lg-6 justify-content-evenly align-items-center politica">
+                <section><a href="" class="linkFooter">Termos e condiçoes</a></section>
+                <section><a href="" class="linkFooter"> Politica de Privacidade</a></section>
+                <section><a href="" class="linkFooter">Torne-se um parceiro</a></section>
+            </div>
+
+            <div class="d-flex col-lg-4 align-items-center justify-content-evenly fontFooter mb-2">
+                <!-- YOU TUBE -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-square-youtube fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- FACEBOOK -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-facebook fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- INSTAGRAM -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-instagram fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- TIK TOK -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-tiktok fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- TWITER -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-x-twitter fs-6" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- LINK DO BOOTSTRAP DO JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

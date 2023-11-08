@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!-- LINK DO FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/modoEscuro.css">
+    <!-- LINK DA FAVICON -->
+    <link rel="shortcut icon" href="assets/image/coursera-logo.png" type="image/x-icon">
+
+    <title>Bolsa Coursera</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a href="#"><img src="../assets/image/coursera-logo.png" alt="Cousera" class="logo me-5 ms-3"></a>
+            <a class="navbar-brand fs-1 me-5" href="#">Coursera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" aria-current="page" href="../pages/graduacao.html">Graduação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="../pages/universidades.html">Universidades</a>
+                    </li>
+
+                    <div class="d-flex align-items-center btnDark">
+                        <input type="checkbox" class ="checkbox" id="chk">
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+
+                </ul>
+       
+                <a href="../pages/login.html" class="btn btn-outline-primary me-3" type="submit">login<a>
+                    <a href="../pages/cadastro.html" class="btn" style="outline: 1px solid #07a80ff6; color: #07a80ff6;" type="submit">Cadastro<a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ********************* HEADER ************************ -->
+
+    <header class="container-fluid">
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 1.png" class="d-block w-100"
+                            alt="Sua facul presencial tá aqui!">
+                    </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/iamgem header 2.png" class="d-block w-100"
+                            alt="Hero São Judas Tadeu">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 3.png" class="d-block w-100"
+                            alt="Cursos a partir de R$99">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 4.png" class="d-block w-100"
+                            alt="Quero Bolsa + Você= Sucesso 💙">
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ********************* MAIN ************************** -->
+
+    <main class="container col-md-8 ">
+        <div class="row grid gap-5 justify-content-center">
+            <div class="d-flex justify-content-center ">
+                <h1 class="mt-4 ">Graduação</h1>
+            </div>
+            <section class="d-flex justify-content-end">
+                <a href="../pages/graduacao.html" class="linkMain btn btn-outline-primary">Ver todos</a>
+            </section>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 1.jpg" class="card-img-top" alt="Enfermagem">
+                <div class="card-body">
+                    <h5 class="card-title mx-auto">Enfermagem</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 99,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 2.jpg" class="card-img-top" alt="Direito">
+                <div class="card-body">
+                    <h5 class="card-title">Direito</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 189,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 3.jpg" class="card-img-top" alt="Psicologia">
+                <div class="card-body">
+                    <h5 class="card-title">Psicologia</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 149,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 4.jpg" class="card-img-top" alt="Engenharia civil">
+                <div class="card-body">
+                    <h5 class="card-title">Engenharia civil</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 99,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 5.jpg" class="card-img-top" alt="Sistema de Informação">
+                <div class="card-body">
+                    <h5 class="card-title">Sistema de Informação</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 139,90/mês</a>
+                </div>
+            </div>
+            <div class="bg-primary text-center">
+                <section>
+                    <h1 class="text-light">Cousera <span>Plus</span></h1>
+                </section>
+                
+                <section>
+                    <p class="text-light">Acesso ilimitado a mais de 7.000 cursos de nível mundial, projetos práticos e programas de certificado prontos para o merdado de trabalho, por um preço de assinatura com tudo incluso</p>
+                </section>
+                <section class="mb-3">
+                    <a href="../pages/cadastro.html" class="linkAnuncio">US$ 59/mês. pode ser cancelado a qualquer momento</a>
+                </section>
+
+                <section class="mb-3">
+                    <a href="../pages/cadastro.html" class="btn btn-outline-light">
+                        Iniciar avaliação gratuita de 7 dias
+                    </a href="../pages/cadastro.html">
+                </section>
+
+                <section  class="mb-3">
+                    <a href="../pages/cadastro.html" class="linkAnuncio">ou US$ 399/ano, com garantia de 14 dias para devolução do dinheiro </a>
+                </section>
+
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 6.jpg" class="card-img-top" alt="Arquitetura e Urbanismo">
+                <div class="card-body">
+                    <h5 class="card-title">Arquitetura e Urbanismo</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 129,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 7.jpg" class="card-img-top" alt="Marketing">
+                <div class="card-body">
+                    <h5 class="card-title">Marketing</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 89,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 8.jpg" class="card-img-top" alt="Gestão Financeira">
+                <div class="card-body">
+                    <h5 class="card-title">Gestão Financeira</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 99,90/mês</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/image/main/imagem main 9.jpg" class="card-img-top" alt="Educação fisica">
+                <div class="card-body">
+                    <h5 class="card-title">Educação física</h5>
+                    <p class="">Ead/Presencial/SemiPresencial</p>
+                    <a href="../pages/login.html" class="text-body-secondary btn1">A partir de</a>
+                    <a href="../pages/login.html" class="text-success btn1">R$ 99,90/mês</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ************************ FOOTER ************************ -->
+
+    <footer class="container-fluid mt-5">
+        <section class=" row">
+
+            <div class="col-lg-2 logoFooter">
+                <img src="../assets/image/coursera-logo.png" alt="" class="img2">
+            </div>
+
+            <div class="d-flex col-lg-6 justify-content-evenly align-items-center politica">
+                <section><a href="" class="linkFooter">Termos e condiçoes</a></section>
+                <section><a href="" class="linkFooter"> Politica de Privacidade</a></section>
+                <section><a href="" class="linkFooter">Torne-se um parceiro</a></section>
+            </div>
+
+            <div class="d-flex col-lg-4 align-items-center justify-content-evenly fontFooter mb-2">
+                <!-- YOU TUBE -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-square-youtube fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- FACEBOOK -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-facebook fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- INSTAGRAM -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-instagram fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- TIK TOK -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-tiktok fs-6" style="color: #ffffff;"></i></a>
+                </div>
+                <!-- TWITER -->
+                <div class="icon-group">
+                    <a href=""><i class="fa-brands fa-x-twitter fs-6" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- LINK DO BOOTSTRAP DO JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/darkTheme.js"></script>
+</body>
+
+</html>

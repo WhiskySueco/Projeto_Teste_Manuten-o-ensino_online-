@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados do Brasil</title>
+    <!-- Inclua os links para os arquivos Bootstrap CSS e JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+   <link rel="stylesheet" href="../css/style.css">
+  
+    <!-- Estilos CSS personalizados -->
+   
+</head>
+<body id="body">
+    <div class="container text-center">
+        <h1>Estados do Brasil</h1>
+        <p>Escolha um estado ou pesquise o nome do seu estado.</p>
+        <div class="search-bar">
+            <form class="form-inline">
+                <select class="form-control col-8" id="estadoSelect">
+                    <option value="">Selecione um estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <button class="btn btn-primary col-4" type="button" onclick="mostrarEstadoSelecionado()">Selecionar</button>
+                
+                
+            </form>
+        </div>
+        <div class="mt-4" id="estadoSelecionado"></div>
+
+        <a href="pages/pageInicio.html" class="btn btn-primary col-4 disabled" type="button" id="idProximo" onclick="habilitarBotao()" >PROXIMO</a>
+        
+    </div>
+
+
+    <script src="../js/pageLocalizacao.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
