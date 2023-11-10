@@ -3,6 +3,32 @@
 
 
 /* MAIN */
+/* Tela de Loading */
+.loadingScreen{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.loadImg{
+    width: 100px;
+}
+
+.loading{
+    width: 350px;
+    height: 50px;
+    border: 2px solid white;
+    box-shadow :inset 0 0 0 6px #000;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: rgb(34, 88, 238);
+    position: relative;
+    z-index: -1;
+}
 
 .btn1{text-decoration: none;}
 .btn1:hover{
