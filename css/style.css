@@ -1,8 +1,71 @@
 /* NAVBAR */
 .logo{width: 50px;}
 
+/* HEADER */
+
+.pesquisa {
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 0;
+    margin-bottom: 15px;
+    overflow-y: auto;
+    background-color: color(from color srgb r g b);
+    z-index: 1000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.3s ease; /* Adiciona uma transição suave para a altura */
+}
+
+.pesquisa.active {
+    height: auto; /* Altura automática quando a seção estiver ativa */
+}
+
+#search-item {
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* .pesquisa form{
+    width: 100%;
+    border : 1px solid blue;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+} */
+
+.busca{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-search{
+    margin-right: 20px;
+    margin-left: 10px;
+}
 
 /* MAIN */
+
 /* Tela de Loading */
 .loadingScreen{
     display: flex;

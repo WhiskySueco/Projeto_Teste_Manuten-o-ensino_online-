@@ -39,7 +39,7 @@
                     </li>
 
                     <div class="d-flex align-items-center btnDark">
-                        <input type="checkbox" class ="checkbox" id="chk">
+                        <input type="checkbox" class="checkbox" id="chk">
                         <label class="label" for="chk">
                             <i class="fas fa-moon"></i>
                             <i class="fas fa-sun"></i>
@@ -48,9 +48,10 @@
                     </div>
 
                 </ul>
-       
+
                 <a href="../pages/login.html" class="btn btn-outline-primary me-3" type="submit">login<a>
-                    <a href="../pages/cadastro.html" class="btn" style="outline: 1px solid #07a80ff6; color: #07a80ff6;" type="submit">Cadastro<a>
+                        <a href="../pages/cadastro.html" class="btn"
+                            style="outline: 1px solid #07a80ff6; color: #07a80ff6;" type="submit">Cadastro<a>
             </div>
         </div>
     </nav>
@@ -59,26 +60,39 @@
 
     <header class="container-fluid">
 
+        <!-- BARRA DE PESQUISA -->
+        <div class="busca">
+            <form class="bar">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-item" placeholder="Pesquisar Cursos" oninput="search()">
+            </form>
+            <section class="pesquisa">
+                <div class="resultados" id="resultadosPesquisa"></div>
+            </section>
+            
+        </div>
+    
+
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="1000">
-                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 1.png" class="d-block w-100"
-                            alt="Sua facul presencial tá aqui!">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 1.png"
+                            class="d-block w-100" alt="Sua facul presencial tá aqui!">
                     </a>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <a href="pages/graduacao.html"><img src="../assets/image/header/iamgem header 2.png" class="d-block w-100"
-                            alt="Hero São Judas Tadeu">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/iamgem header 2.png"
+                            class="d-block w-100" alt="Hero São Judas Tadeu">
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 3.png" class="d-block w-100"
-                            alt="Cursos a partir de R$99">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 3.png"
+                            class="d-block w-100" alt="Cursos a partir de R$99">
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 4.png" class="d-block w-100"
-                            alt="Quero Bolsa + Você= Sucesso 💙">
+                    <a href="pages/graduacao.html"><img src="../assets/image/header/imagem header 4.png"
+                            class="d-block w-100" alt="Quero Bolsa + Você= Sucesso 💙">
                     </a>
                 </div>
             </div>
@@ -98,7 +112,7 @@
     <!-- ********************* MAIN ************************** -->
 
     <main class="container col-md-8 ">
-        <div class="row grid gap-5 justify-content-center">
+        <div id="menu" class="row grid gap-5 justify-content-center">
             <div class="d-flex justify-content-center ">
                 <h1 class="mt-4 ">Graduação</h1>
             </div>
@@ -154,12 +168,15 @@
                 <section>
                     <h1 class="text-light">Cousera <span>Plus</span></h1>
                 </section>
-                
+
                 <section>
-                    <p class="text-light">Acesso ilimitado a mais de 7.000 cursos de nível mundial, projetos práticos e programas de certificado prontos para o merdado de trabalho, por um preço de assinatura com tudo incluso</p>
+                    <p class="text-light">Acesso ilimitado a mais de 7.000 cursos de nível mundial, projetos práticos e
+                        programas de certificado prontos para o merdado de trabalho, por um preço de assinatura com tudo
+                        incluso</p>
                 </section>
                 <section class="mb-3">
-                    <a href="../pages/cadastro.html" class="linkAnuncio">US$ 59/mês. pode ser cancelado a qualquer momento</a>
+                    <a href="../pages/cadastro.html" class="linkAnuncio">US$ 59/mês. pode ser cancelado a qualquer
+                        momento</a>
                 </section>
 
                 <section class="mb-3">
@@ -168,8 +185,9 @@
                     </a href="../pages/cadastro.html">
                 </section>
 
-                <section  class="mb-3">
-                    <a href="../pages/cadastro.html" class="linkAnuncio">ou US$ 399/ano, com garantia de 14 dias para devolução do dinheiro </a>
+                <section class="mb-3">
+                    <a href="../pages/cadastro.html" class="linkAnuncio">ou US$ 399/ano, com garantia de 14 dias para
+                        devolução do dinheiro </a>
                 </section>
 
             </div>
@@ -255,6 +273,7 @@
     <!-- LINK DO BOOTSTRAP DO JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/darkTheme.js"></script>
+    <script src="/js/barraPesquisa.js"></script>
 </body>
 
 </html>
