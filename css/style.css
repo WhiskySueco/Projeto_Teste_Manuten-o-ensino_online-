@@ -149,11 +149,10 @@ color: aliceblue;}
 
 /* LOCALIZAÇÃO */
 #body {
-    background-image: url('https://c8.alamy.com/comp/2AM8P7Y/dec-27-2019-mountain-view-ca-usa-coursera-headquarters-in-silicon-valley-coursera-is-an-american-online-learning-platform-that-offers-massive-2AM8P7Y.jpg');
+    background-image: url('https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: #fff;
 }
 .container {
     padding-top: 100px;
@@ -167,11 +166,19 @@ color: aliceblue;}
     border: none;
     border-radius: 20px;
     padding: 10px;
-}
+}bac
 .search-bar select {
     border: none;
     border-radius: 20px;
     padding: 10px;
     background-color: transparent;
     color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    #body {
+        background-size:500px;
+    }
+
+    
 }
